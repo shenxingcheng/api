@@ -38,3 +38,6 @@ def test_get_goods_cat_with_ddt(goods_cat,item):
 
 def test_a():
     pass
+
+def test_b():
+    pass
