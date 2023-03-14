@@ -35,3 +35,6 @@ def test_get_goods_cat_with_ddt(goods_cat,item):
         res = goods_cat.get_goods_cat(*item)
         # print(res.text)
         assert res.json()['error'] == 0, '响应中的error应为0'
+
+def test_a():
+    pass
