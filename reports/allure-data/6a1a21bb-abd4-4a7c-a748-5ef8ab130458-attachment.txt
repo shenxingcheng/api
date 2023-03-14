@@ -1,0 +1,4 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:1007 Starting new HTTPS connection (1): newecshop.longtest.cn:443
+DEBUG    urllib3.connectionpool:connectionpool.py:465 https://newecshop.longtest.cn:443 "POST /admin/privilege.php HTTP/1.1" 302 None
+DEBUG    urllib3.connectionpool:connectionpool.py:465 https://newecshop.longtest.cn:443 "GET /admin/index.php HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:465 https://newecshop.longtest.cn:443 "POST /admin/category.php?is_ajax=1 HTTP/1.1" 200 None

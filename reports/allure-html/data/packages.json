@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.test_goods_cat",
+    "children" : [ {
+      "name" : "test_get_goods_caat",
+      "uid" : "d30e89f5ed7cf821",
+      "parentUid" : "26feab3e95b1a360a133ab9ff3804dae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1678173104456,
+        "stop" : 1678173104563,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcases.test_goods_cat"
+  } ]
+}

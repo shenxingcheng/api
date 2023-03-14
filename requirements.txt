@@ -1,0 +1,7 @@
+requests
+pytest
+allure-pytest
+pytest-ini
+pytest-level
+pytest-timeout
+pymysql

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d30e89f5ed7cf821",
+  "name" : "test_get_goods_caat",
+  "time" : {
+    "start" : 1678173104456,
+    "stop" : 1678173104563,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

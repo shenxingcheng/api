@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-A7I9MKJ",
+    "children" : [ {
+      "name" : "988-MainThread",
+      "children" : [ {
+        "name" : "test_get_goods_caat",
+        "uid" : "d30e89f5ed7cf821",
+        "parentUid" : "b72c06790149e4d5259ccac3e6b78967",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678173104456,
+          "stop" : 1678173104563,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b72c06790149e4d5259ccac3e6b78967"
+    } ],
+    "uid" : "5294a909007b6d28c583627f32fde42d"
+  } ]
+}
