@@ -41,3 +41,6 @@ def test_a():
 
 def test_b():
     pass
+
+def test_c():
+    pass
