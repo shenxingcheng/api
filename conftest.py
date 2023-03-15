@@ -52,18 +52,18 @@ def pytest_configure(config: pytest.Config):
 
 
 # 定制流程
-def pytest_terminal_summary(terminalreporter, exitstatus, config: pytest.Config):
-    """运行后的命令行总结"""
-    if config.getoption('--alluredir') is not None:
-        if 'Windows' in platform.platform():
-            alluer = config.rootpath / 'tools/allure-2.18.0/bin/allure.bat'
-        else:
-            alluer = config.rootpath / 'tools/allure-2.18.0/bin/allure'
-
-        alluer_date = config.option.allure_report_dir
-        alluer_html = config.rootpath / 'reports/allure-html'
-        os.system('%s generate  %s -o %s' % (alluer, alluer_date, alluer_html))
-        print('alluer htm报告生成成功')
+# def pytest_terminal_summary(terminalreporter, exitstatus, config: pytest.Config):
+#     """运行后的命令行总结"""
+#     if config.getoption('--alluredir') is not None:
+#         if 'Windows' in platform.platform():
+#             alluer = config.rootpath / 'tools/allure-2.18.0/bin/allure.bat'
+#         else:
+#             alluer = config.rootpath / 'tools/allure-2.18.0/bin/allure'
+#
+#         alluer_date = config.option.allure_report_dir
+#         alluer_html = config.rootpath / 'reports/allure-html'
+#         os.system('%s generate  %s -o %s' % (alluer, alluer_date, alluer_html))
+#         print('alluer htm报告生成成功')
 
 
 @pytest.fixture

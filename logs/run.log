@@ -1,6 +1,0 @@
-[20230314 17:11:31] [DEBUG] [connectionpool.py->_new_conn:L232] Starting new HTTP connection (1): 115.28.108.130:80
-[20230314 17:11:31] [DEBUG] [connectionpool.py->_make_request:L465] http://115.28.108.130:80 "POST /newecshop/admin/privilege.php?act=login/admin/privilege.php HTTP/1.1" 302 0
-[20230314 17:11:31] [DEBUG] [connectionpool.py->_get_conn:L273] Resetting dropped connection: 115.28.108.130
-[20230314 17:11:31] [DEBUG] [connectionpool.py->_make_request:L465] http://115.28.108.130:80 "GET /newecshop/admin/index.php HTTP/1.1" 200 528
-[20230314 17:11:31] [DEBUG] [connectionpool.py->_get_conn:L273] Resetting dropped connection: 115.28.108.130
-[20230314 17:11:31] [DEBUG] [connectionpool.py->_make_request:L465] http://115.28.108.130:80 "POST /newecshop/admin/privilege.php?act=login/admin/category.php?is_ajax=1 HTTP/1.1" 200 2992
