@@ -37,7 +37,11 @@ def test_get_goods_cat_with_ddt(goods_cat,item):
         assert res.json()['error'] == 0, '响应中的error应为0'
 
 def test_a():
+    
     pass
 
 def test_b():
+    pass
+
+def test_2():
     pass
