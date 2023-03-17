@@ -1,0 +1,14 @@
+#- cat_name: 电脑 # 第一项
+#  page: "1"
+#- {"cat_name": "手机","page": "1"}
+#- {cat_name: 家具,page: "1"}
+
+name: Cactus
+age: 18
+skills:
+  - - Python
+    - 3
+  - - Java
+    - 5
+has_blog: ture
+gf: ~

@@ -87,10 +87,16 @@ def Db(env_vars):  # need pip install pytest-ini
     db = env_vars.get('db_name')
     return MySQLUtils(host, port, user, password, db)
 
-
-
     # return base_api
 
 
-def test_a():
-    pass
+@pytest.fixture
+def root_dir(request):
+    """项目根目录"""
+    return request.config.rootpath
+
+
+@pytest.fixture
+def data_dir(root_dir):
+    """数据目录"""
+    return root_dir / 'data'
